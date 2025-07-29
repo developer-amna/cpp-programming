@@ -214,3 +214,19 @@ int main()
 	while(n<=5);
 	return 0;
 }
+
+\\ Program # 14
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n=2;
+	do
+	{
+		cout<<n<<"\t";
+		n+=3;
+	}
+	while(n<=17);
+	return 0;
+}

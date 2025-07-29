@@ -284,3 +284,19 @@ int main()
 	cout<<"The sum of the series is="<<sum<<endl;
 	return 0;
 }
+
+\\ Program # 18
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n=1024;
+	while(n>=1)
+	{
+		cout<<n<<"   ";
+		n/=2;
+	}
+	cout<<endl;
+	return 0;
+}

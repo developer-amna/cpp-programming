@@ -750,7 +750,7 @@ Write a program that inputs an even number and odd number, multiplies the even n
 
 Write a program that inputs rainfall in millimeters and converts the rainfall from millimeters into unches.
               (Hint, 1 inch = 25.4mm)
-			  
+
 #include<iostream>
 using namespace std;
 int main()
@@ -763,6 +763,26 @@ int main()
     cout<<"rainfall in inches="<<rainfall_in_inches;
     return 0;
 }
+
+\\ Program # 43
+
+Write a program that inputs coordinates for two points  i.e (x1, y1 & (x2, y2). It calculates the distance between these two points .
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+ double x1,y1,x2,y2;
+ cout<<"Enter coordinates of first points(x1,y1): ";
+ cin>>x1>>y1;
+ cout<<"Enter coordinates of second points(x2,y2): ";
+ cin>>x2>>y2;
+ double distance=sqrt(pow(x2-x1,2)+(pow(y2-y1,2)));
+ cout<<"distance between the points="<<distance;
+ return 0;
+}
+
 
 
 

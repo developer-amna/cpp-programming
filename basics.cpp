@@ -314,3 +314,19 @@ int main()
 	}
 	return 0;
 }
+
+\\ Program # 20
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int sum=0;
+	for(int i=30;i<=60;i+=3)
+	
+	sum+=i;
+	{
+		cout<<"sum is="<<sum;
+	}
+	return 0;
+}

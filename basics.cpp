@@ -411,4 +411,27 @@ int main()
     return 0;
 }
 
+\\ Program # 26
+
+Write a program that inputs current units and previous units from the userand calculates the electricity bill . per unit price is RS.19.25 and surcharge on the bill is 12.5% will be added. The program calculates the net bill and displaysbit on the screen.
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    double current_units,previous_units;
+    cout<<"Enter current units: ";
+    cin>>current_units;
+    cout<<"Enter previous units: ";
+    cin>>previous_units;
+   double units_consumed=current_units-previous_units;
+   double elec_bill=units_consumed*19.25;
+   double surcharge=elec_bill*12.5/100.0;
+   double net_bill=elec_bill+surcharge;
+   cout<<"net bill="<<net_bill;
+   return 0;
+}
+
+
 

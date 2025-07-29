@@ -509,6 +509,30 @@ int main()
     return 0;
 }
 
+\\ Program # 31
+
+Write a program that inputs an integer of five-digits, separate the integer into its digits and displays them separated by four spaces each. Use integer division and modulus operators in the program. Assume that the user enters 41258, the output should be displayed as under:
+                   4    1    2     5     8 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter a five-digit number: ";
+    cin>>n;
+    int a=n/10000;
+     n=n%10000;
+    int b=n/1000;
+    n=n%1000;
+    int c=n/100;
+    n=n%100;
+    int d=n/10;
+    n=n%10;
+    cout<<"Enter five digits with spaces="<<a<<"    "<<b<<"    "<<c<<"    "<<d<<"    "<<n;
+    return 0;
+}
+
+
 
 
 

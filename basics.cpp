@@ -163,3 +163,18 @@ int main()
 	}
 	return 0;
 }
+
+\\ Program # 11
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	while(n<=5)
+	{
+		cout<<"hello"<<endl;
+		n++;
+	}
+	return 0;
+}

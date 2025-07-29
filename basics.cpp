@@ -196,3 +196,21 @@ int main()
 	}
 	return 0;
 }
+
+\\ Program # 13
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n=1;
+	cout<<"Enter a number: ";
+	cin>>n;
+	do
+	{
+		cout<<n<<endl;
+		n++;
+	}
+	while(n<=5);
+	return 0;
+}

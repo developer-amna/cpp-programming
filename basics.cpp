@@ -349,3 +349,14 @@ int main()
 	}
 	  return 0;
 }
+
+\\ Program # 22
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	for(int n=64;n>=2;n/=2)
+	cout<<n<<" ";
+	return 0;
+}

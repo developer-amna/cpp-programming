@@ -270,3 +270,17 @@ int main()
 	cout<<"sum of the series is="<<sum<<endl;
 	return 0;
 }
+
+\\ Program # 17
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float sum;
+	sum=0.0;
+	for(int i=1;i<=100;i++)
+	sum+=(double)i/(i+1);
+	cout<<"The sum of the series is="<<sum<<endl;
+	return 0;
+}

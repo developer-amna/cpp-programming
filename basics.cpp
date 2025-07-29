@@ -300,3 +300,17 @@ int main()
 	cout<<endl;
 	return 0;
 }
+
+\\ Program # 19
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	for(int i=1;i<=200;i*=3)
+	cout<<i<<"   ";
+	{
+		cout<<endl;
+	}
+	return 0;
+}

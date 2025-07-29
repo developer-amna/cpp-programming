@@ -376,3 +376,18 @@ int main()
     cout<<"amount in dollars="<<amount_in_dollar;
     return 0;
 }
+
+\\ Program # 24
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int hours,min,sec;
+    cout<<"enter hours,minutes and seconds: ";
+    cin>>hours>>min>>sec;
+    sec=(hours*3600)+(min*60)+sec;
+    cout<<"second="<<sec;
+    return 0;
+}
+

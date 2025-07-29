@@ -561,6 +561,32 @@ int main()
            return 0;  
 }
 
+\\ Program # 33
+
+Write a program thatinputs a six-digit number and displays it in reverse order. Suppose a user inputs a number 458762, it should display the number as 267857.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"enter 6-digit number";
+    cin>>n;
+    int a=n/100000;
+    n=n%100000;
+    int b=n/10000;
+    n=n%10000;
+    int c=n/1000;
+    n=n%1000;
+    int d=n/100;
+    n=n%100;
+    int e=n/10;
+    n=n%10;
+    cout<<"The number in reverse order is="<<n<<e<<d<<c<<b<<a;
+    return 0;
+}
+
+
 
 
 

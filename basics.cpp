@@ -52,3 +52,17 @@ int main()
 	cout<<n<<"*"<<i<<"="<<n*i<<endl;
 	return 0;
 }
+
+\\ Program # 5
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int sum,n;
+	sum=0;
+	for(n=3;n<=18;n+=3)
+	sum=sum+n;
+	cout<<"sum of series="<<sum;
+	return 0;
+}

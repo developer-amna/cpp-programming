@@ -433,5 +433,28 @@ int main()
    return 0;
 }
 
+\\ Program # 27
+
+Write a program that inputs principal amount, rate of interest and total time. It computes the compound interest. The formula to compute the compound interest is :
+                         (Amount(1+rate/100)^time)-Amount
+
+						 #include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    double amount,rate,time;
+    cout<<"Enter amount: ";
+    cin>>amount;
+    cout<<"Enter rate: ";
+    cin>>rate;
+    cout<<"Enter time: ";
+    cin>>time;
+     double interest=(amount*pow((1+rate/100.0), time)-amount);
+    cout<<"interest="<<interest;
+    return 0;
+}
+
+
 
 

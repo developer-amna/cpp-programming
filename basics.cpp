@@ -178,3 +178,21 @@ int main()
 	}
 	return 0;
 }
+
+\\ Program # 12
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	n=1;
+	cout<<"Enter a number: ";
+	cin>>n;
+	while(n<=5)
+	{
+		cout<<n<<"\t"<<n*n<<"\t"<<n*n*n<<endl;
+		n=n+1;
+	}
+	return 0;
+}

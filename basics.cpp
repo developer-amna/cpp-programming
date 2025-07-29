@@ -455,6 +455,25 @@ int main()
     return 0;
 }
 
+\\ Program # 28
+
+Write a program that inputs base and height from the user and calculates the area of the triangle using the formula:
+                       Area=1/2*base*height
+#include<iostream>
+using namespace std;
+int main()
+{
+    float base,height;
+    cout<<"Enter height ";
+    cin>>height;
+    cout<<"Enter base ";
+    cin>>base;
+    double Area=1/2*(base*height);
+    cout<<"Area="<<Area;
+    return 0;
+}
+
+
 
 
 

@@ -727,6 +727,26 @@ int main()
      return 0;
 }
 
+\\ Program # 41
+
+Write a program that inputs an even number and odd number, multiplies the even number with seven and odd number with 5, and then adds both results. It subtracts the result from 1000 and then displays the final result. The formula to compute the final result is:
+                      Result=1000-((even*7)+(odd*5)
+					  
+#include<iostream>
+  using namespace std; 
+    int main()
+{
+    int even,odd;
+    cout<<"enter even number ";
+    cin>>even;
+    cout<<"enter odd number ";
+    cin>>odd;
+    int result=1000-((even*7)+(odd*5));
+    cout<<"result="<<result;
+    return 0;
+    }
+
+
 
 
 

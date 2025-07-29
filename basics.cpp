@@ -473,6 +473,25 @@ int main()
     return 0;
 }
 
+\\ Program # 29
+
+Write a program that computes the area of a sector of a circle. It inputs the radii and angle in radians of a sector of a circle. The formula to compute the area is:
+                    Area = (radii * radii * angle)/2
+#include<iostream>
+using namespace std;
+int main()
+{
+    float radii,angle;
+    cout<<"Enter radius: ";
+    cin>>radii;
+    cout<<"Enter angle: ";
+    cin>>angle;
+    double Area=(radii*radii*angle)/2;
+    cout<<"Area="<<Area;
+    return 0;
+}
+
+
 
 
 

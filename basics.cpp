@@ -681,6 +681,28 @@ int main()
     return 0;
 }
 
+\\ Program # 39
+
+Write a program that inputs two values, swap the values usin third variable, and then displays them.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"Enter the value of a: ";
+    cin>>a;
+    cout<<"Enter the value of b: ";
+    cin>>b;
+    int temp=a;
+    a=b;
+    b=temp;
+    cout<<"value of a="<<a<<endl;
+    cout<<"value of b="<<b;
+    return 0;
+}
+
+
 
 
 

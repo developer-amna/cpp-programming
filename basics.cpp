@@ -141,3 +141,25 @@ int main()
     cout<<num<<"is not an armstrong number.";
     return 0;
 }
+
+\\ Program # 10
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,next,count;
+	a=1;
+	b=1;
+	cout<<a<<"\t"<<b;
+	count=2;
+	while(count<=10)
+	{
+		next=a+b;
+		cout<<"\t"<<next;
+		count++;
+		a=b;
+		b=next;
+	}
+	return 0;
+}

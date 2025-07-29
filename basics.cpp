@@ -608,7 +608,7 @@ int main()
 
 Write a program that inputs the size of a file in bytes and converts into megabytes.
          1024 bytes = 1 kilobyte, and 1024 kilobytes = 1 megabyte
-		 
+
 #include<iostream>
 #include<iomanip>
 using namespace std;
@@ -621,6 +621,26 @@ int main()
     cout<<setprecision(2)<<"size of file in megabytes="<<file_size_in_MB;
     return 0;
     }
+
+\\ Program # 36
+
+Write a program that inputs the total number of students in a class and fee per student. It calculates the total fee collected from the class.
+           (Hint: Total fee collected=number of students * fee per student) 
+
+		   #include<iostream>
+using namespace std;
+int main()
+{
+    int number_of_students,fee_per_student;
+    cout<<"Enter number of students: ";
+    cin>>number_of_students;
+    cout<<"Enter fee per student: ";
+    cin>>fee_per_student;
+    int total_fee=number_of_students*fee_per_student;
+    cout<<"total fee="<<total_fee;
+    return 0;
+}
+
 
 
 

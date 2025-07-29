@@ -783,6 +783,29 @@ int main()
  return 0;
 }
 
+\\ Program # 44
+
+Write a program that displays the following output using a single output statement (without using a loop)
+*  *  *  *  *
+*  *  *  *
+*  *  *
+*  *
+*
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    cout<<"*"<<setw(3)<<"*"<<setw(3)<<"*"<<setw(3)<<"*"<<setw(3)<<"*"<<endl;
+     cout<<"*"<<setw(3)<<"*"<<setw(3)<<"*"<<setw(3)<<"*"<<endl;
+     cout<<"*"<<setw(3)<<"*"<<setw(3)<<"*"<<endl;
+   cout<<"*"<<setw(3)<<"*"<<endl;
+     cout<<"*";
+    return 0;
+}
+
+
 
 
 

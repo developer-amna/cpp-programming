@@ -391,3 +391,24 @@ int main()
     return 0;
 }
 
+\\ Program # 25
+
+Write a program that inputs four numbers amd computes the sum, average and product of these numbers.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d;
+    cout<<"enter four numbers: ";
+    cin>>a>>b>>c>>d;
+    int sum=a+b+c+d;
+    int average=sum/100;
+    int product=a*b*c*d;
+    cout<<"sum="<<sum<<endl;
+    cout<<"average="<<average<<endl;
+    cout<<"product="<<product;
+    return 0;
+}
+
+

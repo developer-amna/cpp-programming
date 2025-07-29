@@ -491,6 +491,25 @@ int main()
     return 0;
 }
 
+\\ Program # 30
+
+Write a program that inputs a number from the user. It displays its square and cube.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter a number";
+    cin>>n;
+    int square=n*n;
+    int cube=n*n*n;
+    cout<<"square="<<square<<endl;
+    cout<<"cube="<<cube;
+    return 0;
+}
+
+
 
 
 

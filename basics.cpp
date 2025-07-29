@@ -586,6 +586,24 @@ int main()
     return 0;
 }
 
+\\ Program # 34
+
+Write a program that gets the radius and height of a cylinder and finds out its volume using the formula:
+       volume = PI R^2H                                                   Value of PI is = 3.14 
+#include<iostream>
+using namespace std;
+int main()
+{
+    float radius,height;
+    cout<<"enter radius";
+    cin>>radius;
+    cout<<"enter height";
+    cin>>height;
+    float volume=3.14*radius*radius*height;
+    cout<<"volume="<<volume;
+    return 0;
+}
+
 
 
 

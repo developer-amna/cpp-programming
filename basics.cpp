@@ -731,7 +731,7 @@ int main()
 
 Write a program that inputs an even number and odd number, multiplies the even number with seven and odd number with 5, and then adds both results. It subtracts the result from 1000 and then displays the final result. The formula to compute the final result is:
                       Result=1000-((even*7)+(odd*5)
-					  
+
 #include<iostream>
   using namespace std; 
     int main()
@@ -745,6 +745,25 @@ Write a program that inputs an even number and odd number, multiplies the even n
     cout<<"result="<<result;
     return 0;
     }
+
+\\ Program # 42
+
+Write a program that inputs rainfall in millimeters and converts the rainfall from millimeters into unches.
+              (Hint, 1 inch = 25.4mm)
+			  
+#include<iostream>
+using namespace std;
+int main()
+{
+    double rainfall_in_mm;
+    double rainfall_in_inches;
+    cout<<"Enter rainfall in millimeters: ";
+    cin>>rainfall_in_mm;
+    rainfall_in_inches=rainfall_in_mm*25.4;
+    cout<<"rainfall in inches="<<rainfall_in_inches;
+    return 0;
+}
+
 
 
 

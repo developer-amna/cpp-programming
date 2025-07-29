@@ -702,6 +702,32 @@ int main()
     return 0;
 }
 
+\\ Program # 40
+
+Write a program that inputs three values , swap these values without using the fourth variable, and then displays them. Suppose the user enters values in three variables A, B and C. use the following statements in the same order to swap the values:
+           A=A+B+C;
+           B=A-(B+C);
+          C=A-(B+C);
+          A=A-(B+C);
+
+ #include<iostream>
+using namespace std;
+int main()
+{
+    int A,B,C;
+    cout<<"Enter three values";
+    cin>>A>>B>>C;
+    A=A+B+C;
+    B=A-(B+C);
+    C=A-(B+C);
+    A=A-(B+C);
+    cout<<"value of A="<<A<<endl;
+     cout<<"value of B="<<B<<endl;
+     cout<<"value of C="<<C;
+     return 0;
+}
+
+
 
 
 

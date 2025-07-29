@@ -641,6 +641,28 @@ int main()
     return 0;
 }
 
+\\ Program # 37
+
+Write a program that inputs initial velocity (vi), acceleration (a), and time (t) span. It calculates the final velocity (vf) using the formula:
+                             vf=vi + at
+							 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int vf,vi,a,t;
+    cout<<"Enter initial velocity: ";
+    cin>>vi;
+    cout<<"Enter acceleration: ";
+    cin>>a;
+    cout<<"Enter time: ";
+    cin>>t;
+    vf=vi+a*t;
+    cout<<"final velocity="<<vf;
+    return 0;
+}
+
+
 
 
 

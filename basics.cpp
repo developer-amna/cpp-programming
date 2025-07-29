@@ -604,6 +604,24 @@ int main()
     return 0;
 }
 
+\\ Program # 35
+
+Write a program that inputs the size of a file in bytes and converts into megabytes.
+         1024 bytes = 1 kilobyte, and 1024 kilobytes = 1 megabyte
+		 
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float file_size_in_B;
+    cout<<"Enter size of file in bytes: ";
+    cin>>file_size_in_B;
+    double file_size_in_MB=file_size_in_B/(1024*1024);
+    cout<<setprecision(2)<<"size of file in megabytes="<<file_size_in_MB;
+    return 0;
+    }
+
 
 
 

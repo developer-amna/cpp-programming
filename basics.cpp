@@ -360,3 +360,19 @@ int main()
 	cout<<n<<" ";
 	return 0;
 }
+
+\\ Program # 23
+
+Write a program that converts 12000 rupees into dollars (1 dollar = RS. 99)
+#include<iostream>
+using namespace std;
+int main()
+{
+    double amount_in_pkr;
+    double amount_in_dollar;
+    cout<<"Enter amount in pkr: ";
+    cin>>amount_in_pkr;
+    amount_in_dollar=amount_in_pkr*99.0;
+    cout<<"amount in dollars="<<amount_in_dollar;
+    return 0;
+}

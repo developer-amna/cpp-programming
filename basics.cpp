@@ -645,7 +645,7 @@ int main()
 
 Write a program that inputs initial velocity (vi), acceleration (a), and time (t) span. It calculates the final velocity (vf) using the formula:
                              vf=vi + at
-							 
+
 #include<iostream>
 using namespace std;
 int main()
@@ -661,6 +661,26 @@ int main()
     cout<<"final velocity="<<vf;
     return 0;
 }
+
+\\ Program # 38
+
+Write a program that inputs the distance traveled and speed of a car. It calculates the time requird to reach the destination and displays it. The formula to calculate the time is:
+                    Time=Distance/Speed
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float distance,speed;
+    cout<<"Enter distance: ";
+    cin>>distance;
+    cout<<"Enter speed: ";
+    cin>>speed;
+    float time=distance*speed;
+    cout<<"time="<<time;
+    return 0;
+}
+
 
 
 

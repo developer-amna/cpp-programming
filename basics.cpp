@@ -532,6 +532,36 @@ int main()
     return 0;
 }
 
+\\ Program # 32
+
+Write a program that inputs a four-digit number and displays its digits in separate four lines. For example, if the user enters 4785, the program should display output as follows:
+4
+7
+8
+5
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"Enter a four-digit number:";
+    cin>>num;
+        if(num>=1000 && num<=9999)
+        {
+          cout<<(num/1000)%10<<endl;
+        cout<<(num/100)%10<<endl;
+        cout<<(num/10)%10<<endl;
+        cout<<num%10<<endl;
+         } 
+         else 
+         {
+          cout<<"Invalid input . please enter a four digit number .";
+         }
+           return 0;  
+}
+
+
 
 
 

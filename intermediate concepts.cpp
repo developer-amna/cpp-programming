@@ -152,3 +152,22 @@ int main()
 	  cout<<n<<"found at index."<<loc;
 	  return 0;
 }
+
+\\ Program # 7
+
+#include<iostream>
+using namespace std;
+void sumOfArray(int arr[],int size);
+int main()
+{
+   int arr[5]={10,20,30,40,50};
+   sumOfArray(arr,5);
+   return 0;	
+}
+   void sumOfArray(int arr[],int size)
+   {
+   	int sum=0;
+   	for(int i=0;i<size;i++)
+   	sum=sum+arr[i];
+   	cout<<sum;
+   }

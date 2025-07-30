@@ -989,6 +989,28 @@ int main()
 	return 0;
 }
 
+\\ Program # 55
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"Enter three numbers: ";
+    cin>>a>>b>>c;
+    if(a<b)
+       if(a<c)
+       cout<<a<<"is small";
+       else
+       cout<<c<<"is small";
+    else
+        if(b<c)
+        cout<<b<<"is small";
+    else
+        cout<<c<<"is small";
+    return 0;
+}
+
 
 
 

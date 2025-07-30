@@ -970,6 +970,25 @@ int main()
 	return 0;
 }
 
+\\ Program # 54
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,j,c;
+	c=1;
+	for(i=1;i<=5;i++)
+	{
+		for(c=1;c<=5-i;c++)
+		cout<<" ";
+	   for(j=1;j<=i;j++)
+	   cout<<i<<"\t";
+	   cout<<endl;
+	}
+	return 0;
+}
+
 
 
 

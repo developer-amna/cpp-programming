@@ -1011,6 +1011,22 @@ int main()
     return 0;
 }
 
+\\ Program # 56
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  for(int i=1;i<=6;i++){
+  	for(int j=i;j>1;j--)
+  	cout<<" ";
+  	for(int k=1;k<6+1;k++)
+  	cout<<k<<" ";
+  	cout<<endl;
+  }
+}
+   
+
 
 
 

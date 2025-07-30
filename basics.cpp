@@ -951,6 +951,25 @@ int main()
     return 0;
 }
 
+\\ Program # 53
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int fact=1,sum=0;
+	for(float i=1;i<=7;i++)
+	{
+		for(float j=1;j<=i;j++)
+		{
+		fact=fact*j;
+	    }
+	    sum=sum+i/fact;
+	}
+	cout<<"sum of series= "<<sum;
+	return 0;
+}
+
 
 
 

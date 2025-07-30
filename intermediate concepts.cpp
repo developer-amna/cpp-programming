@@ -100,3 +100,22 @@ int main()
 	 cout<<arr[i]<<endl;
 	 return 0;
 }
+
+\\ Program # 5
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int month,days,total;
+	int days_per_month[12]={31,28,31,30,31,30,31,31,30,31,30,31};
+	cout<<"Enter the month number:"<<endl;
+	cin>>month;
+	cout<<"Enter the day number:"<<endl;
+	cin>>days;
+	total=days;
+	for(int x=0;x<month-1;x++)
+	total+=days_per_month[x];
+	cout<<"The number of days in this year till date="<<total<<endl;
+	return 0;
+}

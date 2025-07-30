@@ -320,4 +320,29 @@ int main(){
     }
 }
 
+\\ Program # 10
+
+#include<iostream>
+using namespace std;
+int sum(int a,int b)
+{
+	return a+b;
+}
+int pro(int a,int b)
+{
+	return a*b;
+}
+float avg(int a,int b)
+{
+	return (a+b)/2.0;
+}
+int main()
+{int a,b;
+	cout<<"Enter two numbers";
+	cin>>a>>b;
+	cout<<"sum="<<sum(a,b);
+	cout<<"product="<<pro(a,b);
+	cout<<"average="<<avg(a,b);
+}
+
 

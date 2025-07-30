@@ -823,6 +823,33 @@ int main()
    	return 0;
 }
 
+\\ Program # 46
+
+#include<iostream>
+//#include<iomanip>
+using namespace std;
+int main()
+{
+	int i,j,s;
+	for(i=1;i<=9;i+=2)
+	{
+		for(s=1;s<=9-i;s++)
+		cout<<" ";
+		for(j=1;j<=i;j++)
+		cout<<" *";
+		cout<<endl;
+	}
+	for(i=7;i>=1;i-=2)
+	{
+		for(s=1;s<=7-i;s++)
+		cout<<" ";
+		for(j=1;j<=i;j++)
+		cout<<" *";
+		cout<<endl;
+	}
+	return 0;
+}
+
 
 
 

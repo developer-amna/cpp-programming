@@ -1109,6 +1109,25 @@ int main()
     return 0;
 }
 
+\\ Program # 61
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char status;
+    cout<<"Enter salesperson's status: ";
+    cin>>status;
+    if(status=='s'||status=='S')
+    cout<<"Salary of senior salesperson : Rs. 400 ";
+    else if(status=='j'||status=='J')
+    cout<<"Salary of junior salesperson : Rs. 275 ";
+    else
+    cout<<"Error : invalid status.";
+    return 0;
+}
+
+
 
 
 

@@ -1339,6 +1339,26 @@ int main()
    	return 0;
 }
 
+\\ Program # 66
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int x,n;
+	int sum=0;
+	cout<<"Enter a value: ";
+	cin>>n;
+	cout<<"Enter a value: ";
+	cin>>x;
+	for(int i=1;i<=n;i++)
+	sum=sum+pow(x,i);
+	cout<<"sum of the series="<<sum;
+	return 0;
+}
+
+
 
 
 

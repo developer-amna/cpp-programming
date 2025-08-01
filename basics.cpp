@@ -1069,6 +1069,31 @@ int main()
     return 0;
 }
 
+\\ Program # 59
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char movie;
+    cout<<"Enter movie type: ";
+    cin>>movie;
+    if(movie=='A')
+    cout<<"Adventure movies";
+    else if(movie=='C')
+    cout<<"Comedy movies";
+    else if(movie=='F')
+    cout<<"Family movies";
+    else if(movie=='H')
+    cout<<"Horror movies";
+    else if(movie=='s')
+    cout<<"Science fiction movies";
+    else
+    cout<<"Invalid input";
+    return 0;
+}
+
+
 
 
 

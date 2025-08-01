@@ -1093,6 +1093,23 @@ int main()
     return 0;
 }
 
+\\ Program # 60
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"Enter a character: ";
+    cin>>ch;
+    if(ch>='a'&&ch<='z')
+    cout<<"Entered character is a lowercase letter";
+    else
+    cout<<"Entered character is not a lowercase letter";
+    return 0;
+}
+
+
 
 
 

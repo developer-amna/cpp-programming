@@ -1398,6 +1398,20 @@ int main()
 	return 0;
 }
 
+\\ Program # 69
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float sum=0; 
+	for(float i=1;i<=99;i++)
+	sum=sum+i/(i+1);
+	cout<<"sum of series="<<sum;
+	return 0;
+}
+
+
 
 
 

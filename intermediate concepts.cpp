@@ -364,4 +364,19 @@ int Add(int a,int b)
 	  return 0;	
 	}
 
+\\ Program # 12
+
+#include<iostream>
+using namespace std;
+int printHello()
+{
+	cout<<"hello"<<endl;
+	return 2;
+}
+int main()
+{
+	cout<<printHello()<<endl;
+	return 0;
+}
+
 

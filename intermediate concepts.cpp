@@ -345,4 +345,23 @@ int main()
 	cout<<"average="<<avg(a,b);
 }
 
+\\ Program # 11
+
+#include<iostream>
+using namespace std;
+int Add(int a,int b)
+{
+  int sum=a+b;
+    return sum;
+	}
+    int main()
+	{
+		int x,y,z;
+       x=10;
+	   y=20;
+	  z=Add(x,y);
+	  cout<<z<<endl;
+	  return 0;	
+	}
+
 

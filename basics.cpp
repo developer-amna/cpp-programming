@@ -1423,6 +1423,18 @@ int main()
 	return 0;
 }
 
+\\ Program # 71
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	for(int n=1;n<=200;n*=3)
+	cout<<n<<" ";
+	return 0;
+}
+
+
 
 
 

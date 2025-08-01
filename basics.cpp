@@ -1320,6 +1320,26 @@ cout<<"GoodBye!"<<endl;
 return 0; 
 }
 
+\\ Program # 65
+
+Program # 3
+#include<iostream>
+using namespace std;
+int main()
+{
+	float i=1,sum=0;
+	do{
+	sum=sum+1/i;
+	if(i==1)
+	   i=i+3;
+	else
+	   i=i+4;	
+	}while(i<=100);
+	cout<<"sum="<<sum;
+   	return 0;
+}
+
+
 
 
 

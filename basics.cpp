@@ -1127,6 +1127,23 @@ int main()
     return 0;
 }
 
+\\ Program # 62
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"Enter three numbers: ";
+    cin>>a>>b>>c;
+    if(a!=0 && b%a==0 && c%a==0)
+    cout<<a<<" is common divisor. ";
+    else
+    cout<<a<<" is not a common divisor. ";
+    return 0;
+}
+
+
 
 
 

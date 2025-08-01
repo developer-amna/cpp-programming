@@ -1045,6 +1045,31 @@ int main()
 	return 0;
 }
 
+\\ Program # 58
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int code;
+    cout<<"Enter code number: ";
+    cin>>code;
+    if(code==1)
+    cout<<"Wastern Digital";
+    else if(code==2)
+    cout<<"3M Corporation";
+    else if(code==3)
+    cout<<"Maxell Corporation";
+    else if(code==4)
+    cout<<"Sony Corporation";
+    else if(code==5)
+    cout<<"Verbatim Corporation";
+    else
+    cout<<"Invalid input";
+    return 0;
+}
+
+
 
 
    

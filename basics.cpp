@@ -1377,6 +1377,28 @@ int main()
 	return 0;
 }
 
+\\ Program # 68
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int x,sum=0;
+	cout<<"Enter the value of x= ";
+	cin>>x;
+	for(int i=1;i<5;i++)
+	{
+	   if(i==1)
+	      sum+=i;
+	   else
+	      sum=sum+i*pow(x,i-1);
+	}
+	cout<<"sum="<<sum;
+	return 0;
+}
+
+
 
 
 

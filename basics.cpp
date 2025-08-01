@@ -1163,6 +1163,163 @@ int main()
 return 0;
 }
 
+\\ Program # 64
+
+#include<iostream> 
+using namespace std; 
+void prime(){ 
+int n,c,p=1; 
+cout<<"Enter the number: "; 
+cin>>n; 
+if (n<2){ 
+} 
+cout<<"Number is not prime. "<<endl; 
+for(int c=2;c<=n/2;c++){ 
+if(n%c==0){ 
+p=0; 
+break; 
+} 
+} 
+if(p!=1){ 
+cout<<n<<" Not a prime number "<<endl; 
+} 
+else 
+ } 
+void search(int a[]){ 
+cout<<n<<" Prime Number"<<endl; 
+int x; 
+bool f=false; 
+cout<<"Enter the number to Search in array: "; 
+cin>>x; 
+for(int i=0;i<10;i++){ 
+if (a[i]==x){ 
+f=true; 
+break; 
+} 
+} 
+if(f){ 
+} 
+else 
+} 
+cout<<"The number "<<x<<" is found"<<endl; 
+a[x]=NULL; 
+cout<<"The number "<<x<<" is not found"<<endl; 
+void sort(int a[]){ 
+int min; 
+for(int i=0;i<=9;i++){ 
+min=i; 
+for(int j=i+1;j<=9;j++){ 
+if (a[j]<a[min]) 
+min=j; 
+if(min!=i){ 
+int temp=a[i]; 
+a[i]=a[min]; 
+a[min]=temp; 
+} 
+}   
+} 
+cout<<"The sorted array: "<<endl;  
+for(int i=0;i<=9;i++){ 
+cout<<a[i]<<"\t"; 
+}cout<<endl; 
+} 
+void delete_num(int a[]){ 
+int x; 
+bool f=false; 
+cout<<"Enter the indux to delete in array: "; 
+cin>>x; 
+for(int i=0;i<10;i++){ 
+if (i==x){ 
+f=true; 
+break; 
+} 
+} 
+if(f){ 
+} 
+else 
+} 
+cout<<"The number at indux "<<x<<" is Deleted"<<endl; 
+a[x]=NULL; 
+void Display(int a[]){ 
+cout<<"The number at indux "<<x<<" is not found in the array"<<endl; 
+for (int i=0;i<10;i++){ 
+cout<<a[i]<<"\t"; 
+}cout<<endl; 
+} 
+void  
+div_num(int a[]){ 
+cout<<"The number divided by 9 are: "<<endl; 
+for(int i=0;i<10;i++){ 
+if (a[i]%9==0){ 
+cout<<a[i]<<"\t"; 
+} 
+}cout<<endl; 
+} 
+void Display_pat(){ 
+for(int i=1;i<=5;i++){ 
+for(int k=5;k>=i;k--) 
+cout<<" "; 
+for(int j=1;j<=i;j++){ 
+cout<<i; 
+}cout<<endl; 
+} 
+} 
+int main(){ 
+int ar[10]={10,20,30,40,50,60,70,80,90,100}; 
+int opt; 
+bool flag=true; 
+do{ 
+cout<<"Enter 1 to check prime or not: "<<endl; 
+cout<<"Enter 2 to search number in array: "<<endl; 
+cout<<"Enter 3 to sort the arrar: "<<endl; 
+cout<<"Enter 4 to delete value in array: "<<endl; 
+cout<<"Enter 5 to display the pattern: "<<endl; 
+cout<<"Enter 6 to print the number divided by 9: "<<endl; 
+cout<<"Enter 7 to print the updated array: "<<endl; 
+cout<<"Enter 8 to Exit: "<<endl; 
+cout<<"Enter your choice: "; 
+cin>>opt; 
+switch(opt){ 
+case 1:{ 
+} 
+case 2:{ 
+} 
+case 3:{ 
+} 
+case 4:{ 
+} 
+prime(); 
+break; 
+search(ar); 
+break; 
+sort(ar); 
+break; 
+delete_num(ar); 
+break; 
+case 5:{ 
+} 
+case 6:{ 
+} 
+case 7:{ 
+Display_pat(); 
+break; 
+div_num(ar); 
+break; 
+Display(ar); 
+break; 
+} 
+case 8:{ 
+} 
+default: 
+} 
+}while(flag); 
+flag=false; 
+break; 
+cout<<"Enter the correct number."; 
+cout<<"GoodBye!"<<endl; 
+return 0; 
+}
+
 
 
 

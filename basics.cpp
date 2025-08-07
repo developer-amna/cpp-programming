@@ -1807,6 +1807,33 @@ int main() {
     return 0;
 }
 
+\\ Program # 82
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    const int size = 5;
+    int numbers[size];
+
+    // Input elements
+    cout << "Enter " << size << " numbers:\n";
+    for (int i = 0; i < size; ++i) {
+        cin >> numbers[i];
+    }
+
+    // Calculate sum
+    int sum = 0;
+    for (int i = 0; i < size; ++i) {
+        sum += numbers[i];
+    }
+
+    // Output result
+    cout << "Sum of the numbers is: " << sum << endl;
+
+    return 0;
+}
 
 
 

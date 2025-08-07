@@ -1757,6 +1757,56 @@ int main() {
     return 0;
 }
 
+\\ program # 81
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    const int rows = 4;
+    const int cols = 5;
+    int matrix[rows][cols];
+
+    // Input elements
+    cout << "Enter elements for a " << rows << "x" << cols << " matrix:\n";
+    for (int i = 0; i < rows; ++i)
+        for (int j = 0; j < cols; ++j)
+            cin >> matrix[i][j];
+
+    // Find max element
+    int maxVal = matrix[0][0];
+    int maxRow = 0, maxCol = 0;
+    for (int i = 0; i < rows; ++i)
+        for (int j = 0; j < cols; ++j)
+            if (matrix[i][j] > maxVal) {
+                maxVal = matrix[i][j];
+                maxRow = i;
+                maxCol = j;
+            }
+
+    // Row and column sums
+    cout << "\nRow sums:\n";
+    for (int i = 0; i < rows; ++i) {
+        int rowSum = 0;
+        for (int j = 0; j < cols; ++j)
+            rowSum += matrix[i][j];
+        cout << "Row " << i << ": " << rowSum << endl;
+    }
+
+    cout << "\nColumn sums:\n";
+    for (int j = 0; j < cols; ++j) {
+        int colSum = 0;
+        for (int i = 0; i < rows; ++i)
+            colSum += matrix[i][j];
+        cout << "Column " << j << ": " << colSum << endl;
+    }
+
+    // Output max value
+    cout << "\nMaximum value is " << maxVal << " at position (" << maxRow << ", " << maxCol << ")\n";
+
+    return 0;
+}
+
 
 
 

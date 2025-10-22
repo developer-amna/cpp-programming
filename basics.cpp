@@ -1875,6 +1875,20 @@ int main(){
 	return 0;
 }
 
+\\ program # 85
+
+#include<iostream>
+using namespace std;
+int main(){
+	int marks[5]={90, 100, 54, 36, 88};      
+	int size = 5;
+	
+	cout <<sizeof(marks)/sizeof(int) << endl;           
+	return 0;
+}
+
+
+
 
 
 

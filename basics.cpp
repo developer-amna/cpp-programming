@@ -1854,6 +1854,27 @@ int main(){
 	return 0;
 }
 
+\\ program # 84
+
+#include<iostream>
+using namespace std;
+int main(){
+	int arr[10];
+	for(int i=0;i<10;i++)
+	{
+		cout<<"Enter array elements:";
+		cin>>arr[i];
+	}
+	for(int i=0;i<10;i++)
+	{
+		if (arr[i]%2==0)
+		{
+			cout<<arr[i]<<endl;
+		}
+	}
+	return 0;
+}
+
 
 
 

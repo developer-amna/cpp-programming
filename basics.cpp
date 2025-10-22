@@ -1887,6 +1887,21 @@ int main(){
 	return 0;
 }
 
+\\Program # 86
+
+#include<iostream>
+using namespace std;
+int main(){
+	int marks[5]={90, 100, 54, 36, 88};
+	int size = 5;
+	
+	for(int i=0;i<size;i++)
+	{
+		cout<<marks[i]<<endl;
+	}
+	return 0;
+}
+
 
 
 
